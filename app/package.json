@@ -1,0 +1,6 @@
+{
+  "name": "jouley-desktop",
+  "version": "0.0.1",
+  "description": "The Jouley desktop app",
+  "main": "index.js"
+}
