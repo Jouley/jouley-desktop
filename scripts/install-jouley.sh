@@ -1,3 +1,5 @@
+echo 'Installing app package dependencies'
+install-app-deps
 echo 'Initializing & installing submodules'
 git submodule init
 git submodule update
