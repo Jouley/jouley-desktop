@@ -2,5 +2,8 @@
   "name": "jouley-desktop",
   "version": "0.0.1",
   "description": "The Jouley desktop app",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "id3js": "github:vandeurenglenn/id3#master"
+  }
 }
