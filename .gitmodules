@@ -1,0 +1,3 @@
+[submodule "src/jouley"]
+	path = src/jouley
+	url = https://github.com/Jouley/jouley
