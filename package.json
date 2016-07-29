@@ -12,8 +12,8 @@
     "require-dir": "^0.3.0"
   },
   "scripts": {
-    "install": "sh scripts/install-jouley.sh",
-    "start": "gulp serve && electron ./app",
+    "install": "sh scripts/install-jouley.sh && gulp",
+    "start": "electron ./app",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
