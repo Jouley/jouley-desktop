@@ -1,5 +1,5 @@
 'use-strict';
-const libraryController = require('./library-controller');
+const libraryController = require('./scripts/library-controller');
 const id3 = require('id3js');
 window.JouleyApp = window.JouleyApp || {};
 window.JouleyApp.library = libraryController.library;
