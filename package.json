@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "bower": "^1.7.9",
     "electron-builder": "^5.14.2",
     "electron-prebuilt": "^1.2.8",
     "eslint": "^3.1.1",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "install": "sh scripts/install-jouley.sh && gulp",
-    "start": "electron ./app",
+    "start": "gulp serve && electron ./app",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
