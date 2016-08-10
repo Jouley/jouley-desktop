@@ -25,3 +25,11 @@ bower_components
 
 # Nodejs
 node_modules
+
+#############
+## Jouley
+#############
+
+# App (build)
+app
+library.json
