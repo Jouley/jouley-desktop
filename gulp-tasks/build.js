@@ -1,6 +1,6 @@
 'use strict';
 const gulp = require('gulp');
-const merge = require('gulp-merge');
+const merge = require('merge-stream');
 const size = require('gulp-size');
 const replace = require('gulp-replace');
 const _if = require('gulp-if');
